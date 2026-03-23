@@ -1146,7 +1146,7 @@
   "users": {
     "admin001": {
       "name": "Admin",
-      "email": "trivoxinternal@gmail.com",
+      "email": "daniel@trivox.ca",
       "password": "YWRtaW4xMjM=",
       "role": "admin",
       "status": "approved",
@@ -6134,7 +6134,7 @@ body.light-mode h3 {
                     <div class="service-card" style="margin-bottom: 2rem;">
                         <div class="service-icon">📧</div>
                         <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Email Us</h3>
-                        <p style="color: var(--text-gray);"><a href="mailto:trivoxinternal@gmail.com" style="color:inherit;text-decoration:none;">trivoxinternal@gmail.com</a></p>
+                        <p style="color: var(--text-gray);"><a href="mailto:daniel@trivox.ca" style="color:inherit;text-decoration:none;">daniel@trivox.ca</a></p>
                         <p style="color: var(--text-gray); font-size: 0.9rem; margin-top: 0.5rem;">We respond within 24 hours</p>
                     </div>
 
@@ -6195,7 +6195,7 @@ body.light-mode h3 {
                 <div class="footer-section">
                     <h4>Connect</h4>
                     <ul>
-                        <li><a href="mailto:trivoxinternal@gmail.com">trivoxinternal@gmail.com</a></li>
+                        <li><a href="mailto:daniel@trivox.ca">daniel@trivox.ca</a></li>
                         <li><a href="https://calendly.com/trivoxinternal/intro-call" target="_blank">Schedule a Call</a></li>
                     </ul>
                 </div>
@@ -6538,7 +6538,7 @@ body.light-mode h3 {
                 // EMAILJS INTEGRATION (Uncomment when EmailJS is set up)
                 
                 const templateParams = {
-                    to_email: 'trivoxinternal@gmail.com', 
+                    to_email: 'daniel@trivox.ca', 
                     from_name: formData.name,
                     from_email: formData.email,
                     company: formData.company || 'Not provided',
