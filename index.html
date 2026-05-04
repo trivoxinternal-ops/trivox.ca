@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-CA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Trivox AI - Transform your business with custom AI automation systems. 24/7 AI voice agents, chatbots, workflow automation, and intelligent CRM solutions.">
+    <meta name="robots" content="index, follow">
     <title>Trivox AI - Custom AI Automation for Growing Businesses</title>
+    <link rel="canonical" href="https://trivox.ca">
+    <meta property="og:title" content="Trivox AI — Custom AI Automation for Growing Businesses">
+    <meta property="og:description" content="Transform your business with custom AI automation: 24/7 voice agents, chatbots, workflow automation, and intelligent CRM solutions.">
+    <meta property="og:image" content="https://trivox.ca/TRIVOX%20LOGO.svg">
+    <meta property="og:url" content="https://trivox.ca">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trivox AI — Custom AI Automation for Growing Businesses">
+    <meta name="twitter:description" content="Transform your business with custom AI automation: 24/7 voice agents, chatbots, workflow automation, and intelligent CRM.">
+    <meta name="twitter:image" content="https://trivox.ca/TRIVOX%20LOGO.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Trivox AI",
+      "url": "https://trivox.ca",
+      "logo": "https://trivox.ca/TRIVOX%20LOGO.svg",
+      "description": "AI automation agency building intelligent systems for AI voice agents, chatbots, workflow automation, and CRM for growing businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CA"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "billing@trivox.ca",
+        "contactType": "customer support"
+      },
+      "sameAs": []
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Trivox AI",
+      "url": "https://trivox.ca",
+      "inLanguage": "en-CA",
+      "publisher": { "@type": "Organization", "name": "Trivox AI" }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Trivox AI",
+      "url": "https://trivox.ca",
+      "image": "https://trivox.ca/TRIVOX%20LOGO.svg",
+      "priceRange": "$$",
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI automation services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Voice Assistant", "description": "24/7 AI voice agents that handle calls, qualify leads, and book appointments." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Messaging Assistant", "description": "Custom AI chatbots that answer questions and route qualified prospects." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Workflow Automation", "description": "End-to-end automation of internal workflows across CRM, email, calendars, and APIs." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Appointment Scheduling", "description": "Automated scheduling that captures leads and books them onto your calendar." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Intelligent CRM", "description": "Custom CRM systems with automated pipelines, follow-ups, and analytics." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Customer Support", "description": "AI agents that resolve customer queries 24/7 across email, chat, and voice." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom AI Architecture", "description": "Bespoke AI infrastructure designed around your specific business operations." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Agnostic AI Systems", "description": "Vendor-neutral AI systems that integrate with your existing stack." } }
+        ]
+      }
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -2294,28 +2364,57 @@
             background: transparent;
             color: white;
             z-index: 1;
-            transition: transform 0.2s ease;
             text-decoration: none;
+            transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1),
+                        box-shadow 0.28s cubic-bezier(0.2, 0.8, 0.2, 1),
+                        filter 0.28s ease;
+            box-shadow:
+                0 1px 0 rgba(255,255,255,0.08) inset,
+                0 -10px 20px rgba(0, 0, 0, 0.25) inset,
+                0 10px 24px rgba(0, 0, 0, 0.45),
+                0 4px 10px rgba(0, 0, 0, 0.35),
+                0 0 0 1px rgba(46, 97, 254, 0.18);
         }
 
         .trivox-btn:hover {
-            transform: scale(1.03);
+            transform: translateY(-3px) scale(1.02);
+            box-shadow:
+                0 1px 0 rgba(255,255,255,0.14) inset,
+                0 -10px 22px rgba(0, 0, 0, 0.28) inset,
+                0 22px 40px rgba(0, 0, 0, 0.55),
+                0 10px 22px rgba(46, 97, 254, 0.35),
+                0 0 28px rgba(0, 240, 255, 0.25);
+        }
+
+        .trivox-btn:active {
+            transform: translateY(-1px) scale(0.995);
+            box-shadow:
+                0 1px 0 rgba(255,255,255,0.05) inset,
+                0 -6px 14px rgba(0, 0, 0, 0.28) inset,
+                0 6px 14px rgba(0, 0, 0, 0.5),
+                0 2px 6px rgba(0, 0, 0, 0.35);
+            transition-duration: 0.08s;
         }
 
         .trivox-btn .btn-border {
             position: absolute;
             inset: 0;
             border-radius: inherit;
-            border: 1.5px solid rgba(46, 97, 254, 0.35);
+            border: 1.5px solid rgba(46, 97, 254, 0.45);
             z-index: 2;
             pointer-events: none;
+            box-shadow:
+                0 1px 0 rgba(255, 255, 255, 0.22) inset,
+                0 -1px 0 rgba(0, 0, 0, 0.35) inset;
         }
 
         .trivox-btn .btn-bg {
             position: absolute;
             inset: 0;
             border-radius: inherit;
-            background: rgba(5, 10, 21, 0.85);
+            background:
+                radial-gradient(120% 120% at 50% -20%, rgba(255,255,255,0.16), rgba(255,255,255,0) 55%),
+                linear-gradient(180deg, rgba(20, 30, 55, 0.92), rgba(5, 10, 21, 0.92));
             z-index: -1;
         }
 
@@ -2334,13 +2433,34 @@
         }
 
         .trivox-btn.primary .btn-bg {
-            background: linear-gradient(135deg,
-                rgba(46,97,254,0.15),
-                rgba(0,240,255,0.08));
+            background:
+                radial-gradient(120% 140% at 50% -30%, rgba(0, 240, 255, 0.35), rgba(255,255,255,0) 55%),
+                linear-gradient(180deg, rgba(46, 97, 254, 0.55), rgba(10, 20, 60, 0.9));
+        }
+
+        .trivox-btn.primary {
+            box-shadow:
+                0 1px 0 rgba(255,255,255,0.18) inset,
+                0 -12px 22px rgba(0, 0, 0, 0.28) inset,
+                0 14px 28px rgba(0, 0, 0, 0.5),
+                0 8px 18px rgba(46, 97, 254, 0.35),
+                0 0 22px rgba(0, 240, 255, 0.18);
+        }
+
+        .trivox-btn.primary:hover {
+            box-shadow:
+                0 1px 0 rgba(255,255,255,0.25) inset,
+                0 -12px 22px rgba(0, 0, 0, 0.3) inset,
+                0 26px 46px rgba(0, 0, 0, 0.6),
+                0 14px 26px rgba(46, 97, 254, 0.55),
+                0 0 38px rgba(0, 240, 255, 0.45);
         }
 
         .trivox-btn.primary .btn-border {
-            border-color: rgba(0, 240, 255, 0.4);
+            border-color: rgba(0, 240, 255, 0.55);
+            box-shadow:
+                0 1px 0 rgba(255, 255, 255, 0.35) inset,
+                0 -1px 0 rgba(0, 0, 0, 0.4) inset;
         }
 
         .trivox-btn .btn-text {
@@ -3532,7 +3652,7 @@
 
                 <!-- Industry-Agnostic AI Image -->
                 <div class="image-grid-item clickable fade-in" onclick="openServiceModal('industry')">
-                    <img src="Agonstic AI Systems.png" alt="Agnostic AI Systems" class="ai-image">
+                    <img src="Agnostic AI Systems.png" alt="Agnostic AI Systems" class="ai-image">
                     <div class="image-grid-caption">
                         <h3 style="color: var(--cyan);">Industry-Agnostic</h3>
                         <p style="color: var(--text-gray);">Works across every sector</p>
@@ -3682,9 +3802,9 @@
             <div id="svc-modal-backdrop" onclick="closeServiceModal()"></div>
             <div id="svc-modal-box">
                 <button id="svc-modal-close" onclick="closeServiceModal()">&#10005;</button>
-                <img id="svc-modal-img" src="" alt="">
+                <img id="svc-modal-img" src="" alt="Service detail">
                 <div id="svc-modal-body">
-                    <h3 id="svc-modal-title"></h3>
+                    <h3 id="svc-modal-title">Service</h3>
                     <p id="svc-modal-desc"></p>
                     <ul id="svc-modal-features"></ul>
                 </div>
@@ -3736,7 +3856,7 @@
                 features: ['Custom built AI systems based on client workflow', 'Not templates — designed per business', 'Scalable and adaptable as the business grows']
             },
             industry: {
-                img: 'Agonstic AI Systems.png',
+                img: 'Agnostic AI Systems.png',
                 title: 'Industry-Agnostic AI Systems',
                 desc: 'Versatile artificial intelligence frameworks designed to function across multiple sectors without industry-specific limitations.',
                 features: ['Works for any business, not just one niche', 'Clinics, service businesses, real estate, agencies, etc.', 'Same core tech, different workflows']
@@ -3986,8 +4106,9 @@
                 .tool-card:hover .tool-card-metric { border-color:rgba(0,240,255,0.25); background:rgba(0,240,255,0.08); box-shadow:0 0 12px rgba(0,240,255,0.08); }
                 .tool-card:hover .tool-card-metric::before { box-shadow:0 0 8px rgba(0,240,255,0.5); }
                 @keyframes metricShimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
-                .tool-card-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 20px; background:linear-gradient(135deg,#2E61FE,#00F0FF); border:none; border-radius:10px; color:#fff; font-family:'Sora',sans-serif; font-size:0.82rem; font-weight:700; text-decoration:none; transition:opacity 0.2s,transform 0.2s,box-shadow 0.2s; box-shadow:0 3px 14px rgba(46,97,254,0.25); width:fit-content; }
-                .tool-card-btn:hover { opacity:0.9; transform:translateY(-1px); box-shadow:0 6px 22px rgba(46,97,254,0.35); }
+                .tool-card-btn { position:relative; display:inline-flex; align-items:center; gap:8px; padding:11px 22px; background:linear-gradient(180deg,#3D78FF,#1E49D9); border:none; border-radius:12px; color:#fff; font-family:'Sora',sans-serif; font-size:0.82rem; font-weight:700; text-decoration:none; width:fit-content; transition:transform 0.25s cubic-bezier(0.2,0.8,0.2,1), box-shadow 0.25s cubic-bezier(0.2,0.8,0.2,1), filter 0.25s ease; box-shadow: 0 1px 0 rgba(255,255,255,0.28) inset, 0 -6px 12px rgba(0,0,0,0.25) inset, 0 10px 22px rgba(46,97,254,0.45), 0 4px 10px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,240,255,0.22); }
+                .tool-card-btn:hover { transform:translateY(-3px) scale(1.02); filter:brightness(1.08); box-shadow: 0 1px 0 rgba(255,255,255,0.35) inset, 0 -6px 12px rgba(0,0,0,0.28) inset, 0 20px 38px rgba(46,97,254,0.6), 0 8px 18px rgba(0,0,0,0.45), 0 0 28px rgba(0,240,255,0.45); }
+                .tool-card-btn:active { transform:translateY(-1px) scale(0.995); transition-duration:0.08s; box-shadow: 0 1px 0 rgba(255,255,255,0.15) inset, 0 -4px 10px rgba(0,0,0,0.3) inset, 0 6px 14px rgba(46,97,254,0.4), 0 2px 6px rgba(0,0,0,0.4); }
                 /* Carousel dot indicators */
                 .carousel-dots { display:none; justify-content:center; gap:8px; padding:16px 0 4px; }
                 .carousel-dot { width:8px; height:8px; border-radius:50%; background:rgba(0,240,255,0.2); border:1.5px solid rgba(0,240,255,0.3); cursor:pointer; transition:all 0.3s; }
@@ -4571,7 +4692,7 @@
             <!-- Image modal – image only -->
             <div id="lb-modal">
                 <div id="lb-img-wrap">
-                    <img id="lb-main-img" src="" alt="">
+                    <img id="lb-main-img" src="" alt="Project preview">
                 </div>
             </div>
 
